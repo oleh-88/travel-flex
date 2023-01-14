@@ -3,236 +3,275 @@
 
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="reset.css" />
     <link rel="stylesheet" type="text/css" href="styles.css" />
-    <link rel="icon" type="image/x-icon" href="./images/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;1,300&family=Roboto:wght@100&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cardo:ital,wght@0,400;0,700;1,400&family=Roboto:wght@100&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 </head>
-<nav class="container">
-    <ul">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Guides</a></li>
-        <li><a href="#">Flights</a></li>
-        <li><a href="#">about</a></li>
-    </ul>
-        <div><input class="submit_buttons" type="submit" value="Contact us" name="submit"></div>
-
-</nav>
 
 
-<body>
-    <article>
-        <section class="container">
-            <div class="wrapper">
+<main>
+    <article class="head-part">
+        <nav>
+            <ul class="navigation">
+                <li class="home">Home</li>
+                <li>Guides</li>
+                <li>Flights</li>
+                <li>about</li>
+            </ul>
+            <input class="submit_buttons" type="submit" value="Contact us" name="submit">
+        </nav>
+
+        <section class="main-reserve">
+            <div class="main-text">
                 <h1>Travel to your dream destination</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipi scing elit, sed do eiusmod tempor incididunt ut labore
                     et dolore magna aliqua. Quis ipsum sus pendisse ultrices gravida.</p>
 
-                <input class="Reserve" type="submit" value="Reserve ticket" name="submit">
+                <button class="reserve-ticket">Reserve ticket</button>
             </div>
-            <div>
-                <img src="images/Place1.jpg" width="640" height="319">
-            </div>
-        </section>
-    </article>
-
-    <article>
-        <section>
-            <div class="group2">
-                <div class="inner">
-                    <h1>Create a memory to remember</h1>
-                    <p> Lorem ipsum dolor sit amet, consectetur adipi scing elit, sed do ei usmod tempor incididunt
-                        ut labore et dolore magna aliqua. Quis ipsum sus pendisse ultrices gravida.</p>
-                    <input class="travel_buttons" type="submit" value="My Travel Logs" name="submit">
-                </div>
-            </div>
-            <div  class="container2">
-                    <div class="children">
-                        <img src="images/Place 2.jpg" width="280" height="200">
-                        <h2>Lorem ipsum
-                            dolor sit amet</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipi scing elit, sed do ei usmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum sus pendisse ultrices gravida. </p> 
-                    </div>
-
-                    <div class="children">
-                        <img src="images/Place3.jpg" width="280" height="200">
-                        <h2>Lorem ipsum
-                            dolor sit amet</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipi scing elit, sed do ei usmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum sus pendisse ultrices gravida. </p> 
-                    </div>
-                    <div class="children">
-                        <img src="images/Place4.jpg" width="280" height="200">
-                        <h2>Lorem ipsum
-                            dolor sit amet</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipi scing elit, sed do ei usmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum sus pendisse ultrices gravida. </p> 
-                    </div>
+            <div class="main-foto">
+                <img src="images/Place1.jpg">
             </div>
         </section>
+        <div class="head-bg-right">
+            <img src="images/action-part-right-bg.jpg.png">
+        </div>
     </article>
 
-    <article>
-        <section>
-            <div class="wrapper3">
-                <img src="images/Airplace.jpg" width="50" height="50">
-                <h1>
-                    See places you’ve
-                    <br />
-                    <span class="never">never</span> been before
-                </h1>
-                <p>
-                    Lorem Ipsum Dolor | Lorem Ipsum Dolor | Lorem Ipsum Dolor
-                </p>
+    <article class="create-memory">
+        <div class="block-text">
+            <p class="create-title-text">Create a memory <br /> to remember</h1>
+            <p class="create-text"> Lorem ipsum dolor sit amet, consectetur adipi scing elit, sed do ei usmod tempor
+                incididunt
+                ut labore et dolore magna aliqua. Quis ipsum sus pendisse ultrices gravida.</p>
+            <button class="travel-buttons">My Travel Logs</button>
+        </div>
+        <div class="create-bg-left">
+            <img src="images/create-bg-left.png ">
+        </div>
+        <div class="create-bg-right">
+            <img src="images/create-bg-right.png">
+        </div>
+    </article>
+
+    <article class="about-travel">
+        <section class="block-info">
+            <div class="card-travel">
+                <img src="images/Place 2.jpg">
+                <hr class="card-travel-line">
+                <p class="card-travel-title">Lorem ipsum <br />
+                    dolor sit amet</p>
+                <p class="card-travel-text">Lorem ipsum dolor sit amet, consectetur adipi scing elit, sed do ei usmod
+                    tempor incididunt ut labore et dolore magna aliqua. Quis ipsum sus pendisse ultrices gravida. </p>
+            </div>
+
+            <div class="card-travel">
+                <img src="images/Place3.jpg">
+                <hr class="card-travel-line">
+                <p class="card-travel-title">Lorem ipsum <br />
+                    dolor sit amet</p>
+                <p class="card-travel-text">Lorem ipsum dolor sit amet, consectetur adipi scing elit, sed do ei usmod
+                    tempor incididunt ut labore et dolore magna aliqua. Quis ipsum sus pendisse ultrices gravida. </p>
+            </div>
+            <div class="card-travel">
+                <img src="images/Place4.jpg" width="319" height="236">
+                <hr class="card-travel-line">
+                <p class="card-travel-title">Lorem ipsum <br />
+                    dolor sit amet</p>
+                <p class="card-travel-text">Lorem ipsum dolor sit amet, consectetur adipi scing elit, sed do ei usmod
+                    tempor incididunt ut labore et dolore magna aliqua. Quis ipsum sus pendisse ultrices gravida. </p>
             </div>
         </section>
-    </article>
-    <article>
-        <section class="container4">
-            <div>
-                <img src="images/Place5.jpg" width="350" height="433">
+        <section class="see-place">
+            <img src="images/Airplace.jpg">
+            <p class="see-place-title">
+                See places you’ve
+                <br />
+                <span class="never">never</span> been before
+            </p>
+            <p class="see-place-text">
+                Lorem Ipsum Dolor | Lorem Ipsum Dolor | Lorem Ipsum Dolor
+            </p>
+        </section>
+        <section class="about-places">
+            <div class="about-places-foto-first">
+                <img src="images/Place5.jpg">
             </div>
-            <div class="wrapper4-foto">
-                <img src="images/Place6.jpg" width="350" height="180">
+            <div class="about-places-foto-second">
+                <img src="images/Place6.jpg" width="430px">
                 <div class="textcols">
                     <div class="textcols-item">
-                       <h3> Lorem ipsum
-                        dolor sit amet
-                        consectetur
-                        adipiscing elit
-                        sed do ei</h3>
+                        <p class="about-places-title"> Lorem ipsum
+                            dolor sit amet
+                            consectetur
+                            adipiscing elit
+                            sed do ei</p>
                     </div>
                     <div class="textcols-item">
-                       <p> Lorem ipsum dolor sit amet, consectetur adip isicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud.
-<br />
-<br />
-                        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                    </p>
-                 </div>
+                        <p class="about-places-text"> Lorem ipsum dolor sit amet, consectetur adip isicing elit, sed do
+                            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis
+                            nostrud.
+                            <br />
+                            <br />
+                            exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor
+                            in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                        </p>
+                    </div>
                 </div>
             </div>
         </section>
     </article>
-    <article>
-        <section class="container5">
-            <div class="block-text">
-                <h1>Choose anywhere
-                    you’d like to be</h1>
-                <h4>Lorem Ipsum dolor</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipi scing elit, sed do eiusmod tempor incididunt ut labore
+    <article class="choose-anywhere">
+        <section class="choose-main">
+            <div class="anywhere-block">
+                <p class="anywhere-title">Choose anywhere
+                    you’d like to be</p>
+                <p class="anywhere-body">Lorem Ipsum dolor</p>
+                <p class="anywhere-text">Lorem ipsum dolor sit amet, consectetur adipi scing elit, sed do eiusmod tempor
+                    incididunt ut labore
                     et dolore magna aliqua. Quis ipsum sus pendisse ultrices gravida.</p>
-<h4>Lorem Ipsum dolor</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipi scing elit, sed do eiusmod tempor incididunt ut labore
+                <p class="anywhere-body">Lorem Ipsum dolor</p>
+                <p class="anywhere-text">Lorem ipsum dolor sit amet, consectetur adipi scing elit, sed do eiusmod tempor
+                    incididunt ut labore
                     et dolore magna aliqua. Quis ipsum sus pendisse ultrices gravida.</p>
-            
-            </div>
-            <div class="block-foto">
-                <img src="images/Place7.jpg" width="720" height="457">
-        </section>
-    </article>
 
-    <article>
-        <section class="container">
-            <div class="inner-text-two">
-                <h1>Lorem ipsum dolor
-                    sit amet consectetur</h1>
-                <hr>
-                <p> Lorem ipsum dolor sit amet, consectetur adipi scing elit, sed do ei usmod&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="material-symbols-outlined">
-                    add
-                    </span></p>
-                <hr>
-                <p> Lorem ipsum dolor sit amet, consectetur adipi scing elit, sed do ei usmod&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="material-symbols-outlined">
-                    add
-                    </span></p>
-                <hr>
-                <p> Lorem ipsum dolor sit amet, consectetur adipi scing elit, sed do ei usmod&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="material-symbols-outlined">
-                    add
-                    </span></p>
-                <hr>
-                <p> Lorem ipsum dolor sit amet, consectetur adipi scing elit, sed do ei usmod&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="material-symbols-outlined">
-                    add
-                    </span></p>
-                <hr>
             </div>
-            <div class="inner-foto-two">
-                <img src="images/Place9.jpg" width="440" height="526">
+            <div class="anywhere-foto">
+                <img src="images/Place7.jpg">
             </div>
         </section>
     </article>
+    <article class="description-details">
+        <section class="description-details-block">
+            <div class="detail-text">
+                <p class="detail-title">Lorem ipsum dolor
+                    sit amet consectetur</p>
+                <hr class="details-line">
+                <details>
+                    <summary>
+                        <p class="details-paragraph"> Lorem ipsum dolor sit amet, consectetur adipi scing elit, sed do
+                            ei usmod <span class="material-symbols-outlined">
+                                add </span> </p>
+                    </summary>
+                </details>
+                <hr class="details-line">
+                <details>
+                    <summary>
+                        <p class="details-paragraph"> Lorem ipsum dolor sit amet, consectetur adipi scing elit, sed do
+                            ei usmod <span class="material-symbols-outlined">
+                                add </span> </p>
+                    </summary>
+                </details>
+                <hr class="details-line">
+                <details>
+                    <summary>
+                        <p class="details-paragraph"> Lorem ipsum dolor sit amet, consectetur adipi scing elit, sed do
+                            ei usmod <span class="material-symbols-outlined">
+                                add </span> </p>
+                    </summary>
+                </details>
+                <hr class="details-line">
+                <details>
+                    <summary>
+                        <p class="details-paragraph"> Lorem ipsum dolor sit amet, consectetur adipi scing elit, sed do
+                            ei usmod <span class="material-symbols-outlined">
+                                add </span> </p>
+                    </summary>
+                </details>
+                <hr class="details-line">
+            </div>
+            <div class="details-foto">
+                <img src="images/Place9.jpg">
+            </div>
+        </section>
+    </article>
 
-    <article>
-        <section  class="container2">
+    <article class="client">
+        <section class="client-block">
             <div>
-                
-                <h3>Here’s what they
-                    have to say...</h3>
+
+                <p class="client-text">Here’s what they <br />
+                    have to say...</p>
                 <div class="group-block">
-                    <div class="content">
-                    <h5>Customer Name</h5>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do ei usmod tempor incid idunt ut labore et dolore magna aliqua. 
-                      </p>
+                    <div class="contact-content">
+                        <img src="images/contacts-foto.jpg">
+                        <p class="contact-title">Customer Name</p>
+                        <p class="contact-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do ei
+                            usmod tempor incid idunt
+                            ut labore et dolore magna aliqua.
+                        </p>
                     </div>
-                    <div class="icon"></div>
-                    <div class="head"></div>
-                    <div class="body"></div>
+
                     <div class="slideCarousel-left"></div>
                 </div>
                 <div class="group-block">
-                    <div class="content">
-                    <h5>Customer Name</h5>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do ei usmod tempor incid idunt ut labore et dolore magna aliqua. 
+                    <div class="contact-content">
+                        <img src="images/contacts-foto.jpg">
+                        <p class="contact-title">Customer Name</p>
+                        <p class="contact-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do ei
+                            usmod tempor incid idunt
+                            ut labore et dolore magna aliqua.
+                        </p>
                     </div>
-                    </p>
-                    <div class="icon"></div>
-                    <div class="head"></div>
-                    <div class="body"></div>
                 </div>
                 <div class="group-block">
-                    <div class="content">
-                    <h5>Customer Name</h5>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do ei usmod tempor incid idunt ut labore et dolore magna aliqua. 
+                    <div class="contact-content">
+                        <img src="images/contacts-foto.jpg">
+                        <p class="contact-title">Customer Name</p>
+                        <p class="contact-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do ei
+                            usmod tempor incid idunt
+                            ut labore et dolore magna aliqua.
+                        </p>
                     </div>
-                    </p>
-                    <div class="icon"></div>
-                    <div class="head"></div>
-                    <div class="body"></div>
                     <div class="slideCarousel-nav-btn"></div>
                 </div>
             </div>
         </section>
     </article>
-    <article>
-        <section class="container">
+    <article class="reviews">
+        <section class="review-container">
             <form class="forma">
-                <h1>Be updated!</h1>
+                <p class="title-form">Be updated!</p>
                 <input class="formtable" size="50" type="text" placeholder="First Name*" name="firstname">
                 <br />
-                <input class="formtable"  size="50" type="text" placeholder="Last Name*" name="lastname">
+                <input class="formtable" size="50" type="text" placeholder="Last Name*" name="lastname">
                 <br />
-                <input class="formtable"  size="50" type="email" placeholder="Email Subject*" name="login">
+                <input class="formtable" size="50" type="email" placeholder="Email Subject*" name="login">
                 <br />
-                <textarea class="formtable-area"  cols="41" rows="5" placeholder="Write something here..."></textarea>
+                <textarea class="formtable-area" cols="41" rows="5" placeholder="Write something here..."></textarea>
                 <br />
                 <br />
                 <br />
 
                 <input class="submit" type="submit" value="Submit Email">
             </form>
-            <div class="contact-foto">
-                <img src="images/Place8.jpg" width="720" height="517">
+            <div class="review-contact-foto">
+                <img src="images/Place8.jpg" width="640" height="517">
             </div>
         </section>
     </article>
-</body>
-<footer>
+    <footer>
         <div>
             <div class="container9">
                 <div class="frchildren">
-                    <h3>My Log
-                        Travels</h3>
+                    <p class="footer-title">My Log <br />
+                        Travels</p>
                 </div>
 
                 <div class="flchildren">
-                    <h3>Site Map</h3>
-                    <ul>
+                    <p class="body-text">Quick Links</p>
+                    <ul class="text-links">
                         <li>Home</li>
                         <li>About Us</li>
                         <li>My Travel Logs</li>
@@ -248,12 +287,16 @@
                     </ul>
                 </div>
             </div>
-        </div>
 
-</div>
-    <div class="copyright">
-        2021 - 2022 My Log Travels. All Rights Reserved.</span>
-    </div>
-</footer>
+        </div>
+        <div class="copyright">
+            2021 - 2022 My Log Travels. All Rights Reserved.</span>
+        </div>
+    </footer>
+</main>
+
+<body>
+
+</body>
 
 </html>
